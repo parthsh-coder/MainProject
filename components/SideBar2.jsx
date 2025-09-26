@@ -20,19 +20,16 @@ function Navbar() {
                 <br></br><br></br>
                 <NavLink to="/dashboard" className={({ isActive }) => isActive ? "active-link" : ""} id="items">Dashboard</NavLink>
                 <br></br><br></br>
-                <Select1 />
+            
             </ul>
             <br></br><br></br>
             <div className="btn">
                 <button onClick={handleClick}>Logout</button>
             </div>
             <div className="second">
-                <h4 style={{ color: "white" }}>More...</h4>
-                <br></br>
-                <div id="logo"><i class="fa-jelly-fill fa-regular fa-plus"></i></div>
                 <br></br>
                 <div id="logo1">
-                    <img onClick={handleClic2} src="https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg?semt=ais_hybrid&w=740&q=80"></img>
+                    <img style={{marginTop:"120px"}} onClick={handleClic2} src="https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg?semt=ais_hybrid&w=740&q=80"></img>
                 </div>
             </div>
 

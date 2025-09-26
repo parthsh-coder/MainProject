@@ -16,12 +16,12 @@ function DashBoard() {
             </div>
             <div className="dashImages">
                 <img style={{ marginTop: "15px" }} src="https://www.edrawsoft.com/images/dashboard/pie-chart-hr-dashboard.png"></img>
-                <img style={{marginLeft:"50px"}} src="https://www.edrawsoft.com/images/dashboard/hr-dashboard-bar-chart.png"></img>
-                <img style={{height: "340px"}} src="https://www.slidegeeks.com/media/catalog/product/cache/560x315/E/m/Employee_Performance_Levels_Dashboard_Ppt_PowerPoint_Presentation_Slides_Design_Templates_PDF_Slide_1.jpg"></img>
+                <img style={{ marginLeft: "50px" }} src="https://www.edrawsoft.com/images/dashboard/hr-dashboard-bar-chart.png"></img>
+                <img style={{ height: "340px" }} src="https://www.slidegeeks.com/media/catalog/product/cache/560x315/E/m/Employee_Performance_Levels_Dashboard_Ppt_PowerPoint_Presentation_Slides_Design_Templates_PDF_Slide_1.jpg"></img>
             </div>
             <div className="dashFooter">
                 <h2>Company Status & Employee details</h2>
-                <button style={{ width: "100px", border: "none", height: "30px", borderRadius: "15px", backgroundColor: "lightblue", textAlign: "center", fontWeight: "bold", border: "0.5px solid grey",cursor:"pointer" }}>Details</button>
+                <button style={{ width: "100px", height: "30px", borderRadius: "15px", backgroundColor: "lightblue", textAlign: "center", fontWeight: "bold", border: "0.5px solid grey", cursor: "pointer" }}>Details</button>
             </div>
         </div>
     );

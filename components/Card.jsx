@@ -12,7 +12,7 @@ function Card(props){
             <img style={{width:"200px",height:"200px" ,marginLeft:"70px" , marginTop:"20px"}} src={props.image}></img>
             <div className="counter">
                 <h3>{count}</h3>
-                <button style={{width:"100px", border:"none", height:"40px",borderRadius:"15px" , backgroundColor:"lightblue", textAlign:"center", fontWeight:"bold", border:"0.5px solid grey",cursor:"pointer"}} onClick={handleClick}>Add</button>
+                <button style={{width:"100px", height:"40px",borderRadius:"15px" , backgroundColor:"lightblue", textAlign:"center", fontWeight:"bold", border:"0.5px solid grey",cursor:"pointer"}} onClick={handleClick}>Add</button>
             </div>
         </div>
     );

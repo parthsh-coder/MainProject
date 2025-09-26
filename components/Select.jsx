@@ -5,13 +5,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-export default function BasicSelect() {
-  const [role, setRole] = React.useState('');
-
-  const handleChange = (event) => {
-    setRole(event.target.value);
-  };
-
+export default function RoleSelect({ role, onRoleChange }) { 
   return (
     <Box>
       <FormControl>
@@ -20,14 +14,14 @@ export default function BasicSelect() {
         <Select
           labelId="Role"
           id="Role"
-          value={role}
+          value={role} 
           label="Choose Your Role"
-          onChange={handleChange}
-          style={{width:"300px"}}
+          onChange={onRoleChange} 
+          style={{ width: "300px" }}
         >
-          <MenuItem value={10}>Admin</MenuItem>
-          <MenuItem value={20}>Hr</MenuItem>
-          <MenuItem value={30}>Empolyee</MenuItem>
+          <MenuItem value="admin">Admin</MenuItem>
+          <MenuItem value="hr">HR</MenuItem>
+          <MenuItem value="employee">Employee</MenuItem>
         </Select>
       </FormControl>
     </Box>

@@ -38,3 +38,19 @@
     color: white;
     
 }
+#logo1 img{
+    height: 50px;
+    border-radius: 50%;
+    width:50px;
+}
+
+.btn button{
+    margin-left: 50px;
+    background-color: rgb(113, 33, 188);
+    height: 40px;
+    width: 100px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}

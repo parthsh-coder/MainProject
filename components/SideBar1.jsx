@@ -2,7 +2,7 @@ import "./Navbar.css"
 import { NavLink } from "react-router-dom";
 import Select1 from "./Select1.jsx";
 import { useNavigate } from "react-router-dom";
-function Navbar() {
+function SideBar1() {
     let navigate = useNavigate();
 
     let handleClick = () => {
@@ -18,9 +18,9 @@ function Navbar() {
                 <br></br><br></br>
                 <NavLink to="/" className={({ isActive }) => isActive ? "active-link" : ""} id="items">Home</NavLink>
                 <br></br><br></br>
-                <NavLink to="/dashboard" className={({ isActive }) => isActive ? "active-link" : ""} id="items">Dashboard</NavLink>
+                <NavLink to="/dashboard2" className={({ isActive }) => isActive ? "active-link" : ""} id="items">Dashboard</NavLink>
                 <br></br><br></br>
-                <Select1 />
+                <Select1/>
             </ul>
             <br></br><br></br>
             <div className="btn">
@@ -40,4 +40,4 @@ function Navbar() {
     );
 
 }
-export default Navbar;
+export default SideBar1;

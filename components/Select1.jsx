@@ -5,7 +5,6 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import "./Select1.css";
-XMLDocumentx
 export default function Select1() {
   const [role, setRole] = React.useState('');
 
